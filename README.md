@@ -2,7 +2,7 @@
 
 **Cara's Secret** is a E-Commerce Website for female apparels. It is a Beautiful Frontend Project made with **HTML5, CSS3 and JavaScript.** 
 
-<p align="center"> <img src="" alt="Home.jpg" width="100%" /> </p>
+<p align="center"> <img src="https://github.com/Mihir-Shinde-24/Caras-Secret/blob/main/Cara-Secret-Demo/HOME_SS.jpg" alt="Home.jpg" width="75%" /> </p>
 
 ## 🚀 Features of the Application
 
@@ -16,15 +16,17 @@
 
 5. **`Add to Cart Page`** for adding items to your Cart.
 
+
 ## 🚀 Check out the website here! 👉 [Cara's Secret](https://carasecret.000webhostapp.com/)
+
 
 ## 🚀 Demo of Chit-Chat App
 
 ### Home Page 
 
-<p align="center"> <img src="" alt="Home.gif" width="100%" /> 
+<p align="center"> <img src="https://github.com/Mihir-Shinde-24/Caras-Secret/blob/main/Cara-Secret-Demo/Home.gif" alt="Home.gif" width="100%" /> 
 
 
 ### Buying Items
 
-<p align="center"> <img src="" alt="Cart.gif" width="100%" /> </p>
+<p align="center"> <img src="https://github.com/Mihir-Shinde-24/Caras-Secret/blob/main/Cara-Secret-Demo/Cart.gif" alt="Cart.gif" width="100%" /> </p>
