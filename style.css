@@ -221,6 +221,8 @@ body {
   position: relative;
   background: #fefcfe;
 }
+
+
 #product1 .pro-container {
   display: flex;
   justify-content: space-between;
@@ -261,6 +263,7 @@ body {
 }
 
 #product1 .pro .cart {
+  display: none;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -442,7 +445,7 @@ footer .col {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
-  /* border: 1px solid black; */
+  
 }
 
 footer .logo {
@@ -526,6 +529,26 @@ footer .copyright {
 #pagination a i {
   font-size: 16px;
 }
+#filter-buttons-container{
+  padding: 25px 80px 0px 80px;
+}
+#filter-buttons-container .filter-title h1{
+  font-size: 35px;
+  
+}
+
+#filter-buttons-container .filter-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#filter-buttons-container .filter-buttons button{
+  padding: 10px 15px;
+  background-color: #EAD2A8;
+  color: black;
+}
+
+
 
 /* Single Product Page */
 #prodetails {
@@ -595,6 +618,7 @@ footer .copyright {
 
 #page-header.about-header {
   background-image: url("img/about/banner.png");
+  background-position: center;
 }
 
 #about-head img {
@@ -687,6 +711,7 @@ footer .copyright {
   border: 1px solid #e1e1e1;
   border-radius: 5px;
   align-items: center;
+  gap:15px;
 }
 
 #form-details form {
@@ -714,6 +739,9 @@ footer .copyright {
   display: flex;
   align-items: flex-start;
 }
+/* #form-details .people {
+  margin-top: 10px;
+} */
 #form-details .people div img {
   width: 65px;
   height: 65px;
@@ -794,12 +822,17 @@ footer .copyright {
   padding-top: 15px;
   font-size: 13px;
 }
+.fa-times-circle{
+  cursor: pointer;
+}
 
 #cart-add {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+
 #coupon {
   display: flex;
   flex-wrap: wrap;
@@ -866,7 +899,7 @@ footer .copyright {
     right: -300px;
     height: 100%;
     width: 300px;
-    background-color: #e4e6f3;
+    background-color: #eadef0;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 80px 0 0 10px;
     transition: 0.3s;
@@ -956,10 +989,7 @@ footer .copyright {
     width: 50%;
   }
 
-  /* car page */
-  #mobile i:nth-child(1) {
-    color: #088178;
-  }
+
 }
 
 /* small screen breakpoint */
@@ -1032,6 +1062,11 @@ footer .copyright {
     padding: 40px 20px;
   }
 
+  /* shopping */
+  #filter-buttons-container {
+    padding: 25px 40px 0px 40px;
+  }
+
   /* single product */
 
   #prodetails {
@@ -1095,9 +1130,13 @@ footer .copyright {
     padding: 20px;
     margin: 17px;
   }
-  #peoples {
+  /* #peoples {
     margin-top: 49px;
-  }
+  } */
+
+  /* #form-details .people{
+    margin-top: 40px;
+  } */
 
   /* cart page */
   #cart-add {

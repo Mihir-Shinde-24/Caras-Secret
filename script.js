@@ -1,4 +1,4 @@
-//cart
+//addToCart Slider
 
 const bar = document.getElementById("bar");
 const close = document.getElementById("close");
@@ -14,3 +14,12 @@ bar.onclick = ()=>{
 close.onclick = ()=>{
   navbar.classList.remove("active");
 }
+
+// ------------------------------------------
+
+
+
+
+
+
+
