@@ -1,0 +1,48 @@
+#product1 .pro {
+  width: 19vw;
+  border: 1px solid #cce7d0;
+  min-width: 250px;
+  padding: 10px 12px;
+  border-radius: 25px;
+  /* cursor: pointer; */
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0.7vw;
+  transition: 0.3s ease;
+  position: relative;
+  background: #fefcfe;
+  transform: translateX(16%);
+  position: static;
+  
+}
+
+/* media query */
+
+@media (min-width: 800px) and (max-width: 1350px) {
+
+  #product1 .pro {
+    
+    margin: 15px 3.5vw;
+    
+    transform: translateX(25%);
+    
+    
+  }
+
+
+  
+}
+
+@media (max-width: 550px){
+
+  #product1 .pro {
+    
+    margin: 15px 0vw;
+    
+    transform: translateX(20%);
+    
+    
+  }
+
+
+
+}
