@@ -1,6 +1,6 @@
 # Cara's Secret
 
-**Cara's Secret** is a E-Commerce Website for female apparels. It is a Beautiful Frontend Project made with **HTML5, CSS3 and JavaScript.** 
+**Cara's Secret** is a E-Commerce Website for female apparels. It is a Beautiful Frontend Project made with **HTML5, CSS3 and Vanilla JavaScript.** 
 
 <p align="center"> <img src="https://github.com/Mihir-Shinde-24/Caras-Secret/blob/main/Cara-Secret-Demo/HOME_SS.jpg" alt="Home.jpg" width="75%" /> </p>
 
